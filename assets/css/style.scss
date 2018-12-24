@@ -2,3 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
+
+nav li, footer li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px;
+    margin:10px, 40px, 10px, 40px;
+    font: bold 14px Tahoma;
+}
+
+nav ul{
+ text-align: center;   
+}
+
+nav{
+    color: #254e58;
+    border-below: 1px solid #4F4A41;
+}
